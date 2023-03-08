@@ -1,0 +1,1 @@
+<view class="help"><view class="navgator"><my-navgator vue-id="0c871fc0-1" titles="助力活动" bind:__l="__l"></my-navgator></view><view class="helpcontainer"><u-empty vue-id="0c871fc0-2" mode="news" icon="http://cdn.uviewui.com/uview/empty/car.png" bind:__l="__l"></u-empty></view></view>

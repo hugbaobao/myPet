@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/tabbar/home/index",
+    "pages/tabbar/cloud/index",
+    "pages/tabbar/publish/index",
+    "pages/tabbar/message/index",
+    "pages/tabbar/personal/index",
+    "pages/black/black",
+    "pages/black/more",
+    "pages/help/help",
+    "pages/edit/edit",
+    "pages/login/login"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "color": "#8F8F94",
+    "selectedColor": "#ffaa00",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/home/index",
+        "iconPath": "static/img/tabbar/chongwu11-copy.png",
+        "selectedIconPath": "static/img/tabbar/chongwu11.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabbar/cloud/index",
+        "iconPath": "static/img/tabbar/chongwuwan-copy.png",
+        "selectedIconPath": "static/img/tabbar/chongwuwan.png",
+        "text": "云养"
+      },
+      {
+        "pagePath": "pages/tabbar/publish/index",
+        "iconPath": "static/img/tabbar/jia.png",
+        "selectedIconPath": "static/img/tabbar/jia.png",
+        "text": "发布"
+      },
+      {
+        "pagePath": "pages/tabbar/message/index",
+        "iconPath": "static/img/tabbar/xiaoxi-copy.png",
+        "selectedIconPath": "static/img/tabbar/xiaoxi.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/tabbar/personal/index",
+        "iconPath": "static/img/tabbar/chongwulianmeng-copy.png",
+        "selectedIconPath": "static/img/tabbar/chongwulianmeng.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

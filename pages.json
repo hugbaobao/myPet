@@ -1,0 +1,123 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        
+		{
+			"path": "pages/tabbar/home/index",
+			"style": {
+				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				"navigationBarTitleText": "宠物领养中心"
+			}
+		},
+		{
+			"path": "pages/tabbar/cloud/index",
+			"style": {
+				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				"navigationBarTitleText": "云养宠物"
+			}
+		},
+		{
+			"path": "pages/tabbar/publish/index",
+			"style": {
+				"navigationBarTitleText": "发布"
+			}
+		},
+		{
+			"path": "pages/tabbar/message/index",
+			"style": {
+				"navigationBarTitleText": "消息中心"
+			}
+		},
+		{
+			"path": "pages/tabbar/personal/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+		    "path" : "pages/black/black",
+		    "style" : {
+				"navigationStyle": "custom" ,
+		        "navigationBarTitleText": "黑名单公示墙"
+		    }  
+		},
+		{
+		    "path" : "pages/black/more",
+		    "style" : {
+				"navigationStyle": "custom" 
+		    }  
+		},
+		{
+		    "path" : "pages/help/help",
+		    "style" : {
+				"navigationStyle": "custom" 
+		    }  
+		},
+		{
+            "path" : "pages/edit/edit",
+            "style" : 
+            {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+            }
+        },
+		{
+		    "path" : "pages/login/login",
+		    "style" : {
+				// "navigationStyle": "custom" ,
+				"navigationBarTitleText": "授权登录"
+		    }  
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		// "borderStyle": "black",
+		"backgroundColor": "#fff",
+		"color": "#8F8F94",
+		"selectedColor": "#ffaa00",
+		"list": [{
+				"pagePath": "pages/tabbar/home/index",
+				"iconPath": "static/img/tabbar/chongwu11-copy.png",
+				"selectedIconPath": "static/img/tabbar/chongwu11.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tabbar/cloud/index",
+				"iconPath": "static/img/tabbar/chongwuwan-copy.png",
+				"selectedIconPath": "static/img/tabbar/chongwuwan.png",
+				"text": "云养"
+			},
+			//#ifdef MP-WEIXIN
+			{
+				"pagePath": "pages/tabbar/publish/index",
+				"iconPath": "static/img/tabbar/jia.png",
+				"selectedIconPath": "static/img/tabbar/jia.png",
+				"text": "发布"
+			},
+			//#endif
+			//#ifndef MP-WEIXIN
+			{
+				"pagePath": "pages/tabbar/publish/index",
+				"iconPath": "static/img/tabbar/jia.png",
+				"selectedIconPath": "static/img/tabbar/jia.png"
+			},
+			//#endif
+			{
+				"pagePath": "pages/tabbar/message/index",
+				"iconPath": "static/img/tabbar/xiaoxi-copy.png",
+				"selectedIconPath": "static/img/tabbar/xiaoxi.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/tabbar/personal/index",
+				"iconPath": "static/img/tabbar/chongwulianmeng-copy.png",
+				"selectedIconPath": "static/img/tabbar/chongwulianmeng.png",
+				"text": "我的"
+			}
+		]
+	}
+}

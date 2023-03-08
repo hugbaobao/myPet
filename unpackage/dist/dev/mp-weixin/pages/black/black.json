@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "黑名单公示墙",
+  "usingComponents": {
+    "u-notice-bar": "/uni_modules/uview-ui/components/u-notice-bar/u-notice-bar",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "my-navgator": "/components/navigation/navigation",
+    "my-black": "/components/forblack/list"
+  }
+}

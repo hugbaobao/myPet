@@ -1,0 +1,1 @@
+<view class="xitong data-v-4f134d6a"><view class="icons data-v-4f134d6a"><u-icon vue-id="3655511b-1" name="bell" color="#fff" size="20px" bold="{{true}}" class="data-v-4f134d6a" bind:__l="__l"></u-icon></view><view class="tz data-v-4f134d6a"><text class="data-v-4f134d6a">系统通知</text><text class="data-v-4f134d6a">{{xttz}}</text></view></view>

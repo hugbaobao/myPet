@@ -1,0 +1,12 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "宠物领养中心",
+  "usingComponents": {
+    "u-navbar": "/uni_modules/uview-ui/components/u-navbar/u-navbar",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "u-swiper": "/uni_modules/uview-ui/components/u-swiper/u-swiper",
+    "my-nav": "/components/forhome/nav",
+    "my-tabs": "/components/forhome/tabs",
+    "my-list": "/components/forhome/list"
+  }
+}

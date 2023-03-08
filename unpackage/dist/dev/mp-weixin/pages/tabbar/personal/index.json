@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "usingComponents": {
+    "my-top": "/components/forpersonal/top",
+    "my-nav": "/components/forpersonal/nav",
+    "my-phone": "/components/forpersonal/phone"
+  }
+}
